@@ -40,9 +40,18 @@ It's a single page, top to bottom: navigation bar → hero ("Medicine that works
 
 ## How the site is published
 
-> Anu / Mike: fill this in once the site is live so Claude can tell her exactly how to publish a change.
->
-> - If on **Squarespace:** changes are published by pasting the updated `index.html` into the website's Code Block, then clicking Save/Publish in Squarespace.
-> - If on **Google Cloud / Firebase:** changes are published by Mike (they require a deploy step) — for now, send the updated file to Mike.
+**The site publishes itself automatically.** It's hosted on GitHub Pages, which rebuilds the live site every time this repository changes — about one minute after a change is saved.
 
-If you're not sure how the site is published, tell Anu to ask Mike rather than guessing.
+So to publish one of Anu's edits, **you just need to save (commit) the change to this repository using the GitHub connector.** That's it — no deploy command, no copy-pasting, no separate website tool.
+
+Your flow whenever Anu asks for a change:
+1. Make the edit in `index.html`.
+2. **Commit it to this repository** (`steps-re/integra-medical-site`, `master` branch) via the GitHub connector, with a short, plain-English commit message describing the change (e.g., "Update office hours to open at 9am").
+3. Tell Anu: *"Done — your change will be live on your website in about a minute."*
+4. Anu can refresh her site to see it.
+
+If the GitHub connector isn't set up or you can't commit, **don't guess** — tell Anu to ask Mike to check the connection.
+
+**Live site:**
+- Temporary editing URL (use this while finalizing): https://steps-re.github.io/integra-medical-site/
+- Her real address once the domain is connected: https://www.integramedicalnyc.com
