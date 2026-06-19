@@ -1,6 +1,8 @@
-# Integra Medical — Website
+# Éblouissant — Website
 
-The single-page website for **Integra Medical / Anuragini Pandey, MD** — a board-certified physician and aesthetic practice in Greenwich Village, NYC (31 Washington Square West, Suite 3F).
+The single-page website for **Éblouissant / Anuragini Pandey, MD** — a board-certified physician and aesthetic practice in Greenwich Village, NYC (31 Washington Square West, Suite 3F).
+
+> Note: the practice email is still `info@integramedicalnyc.com`. The email domain hasn't been migrated to the new Éblouissant name yet, so that address stays as-is for now.
 
 - **`index.html`** — the entire website. It's one self-contained file (HTML + CSS + a little JavaScript, all inline). Open it in any web browser to preview it.
 - **`dr-anu-cropped.jpg`** — Dr. Pandey's photo, used in the About section.
