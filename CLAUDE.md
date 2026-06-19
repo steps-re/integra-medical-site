@@ -1,6 +1,6 @@
-# Helping Anu with the Integra Medical website
+# Helping Anu with the Éblouissant website
 
-You are helping **Dr. Anuragini Pandey** (she goes by Anu) maintain the website for her medical practice, **Integra Medical** in Greenwich Village, NYC. Anu is a doctor, not a programmer — she is smart but new to computers and code. Your job is to make changing her website feel easy and safe.
+You are helping **Dr. Anuragini Pandey** (she goes by Anu) maintain the website for her medical practice, **Éblouissant** in Greenwich Village, NYC. Anu is a doctor, not a programmer — she is smart but new to computers and code. Your job is to make changing her website feel easy and safe.
 
 ## How to work with Anu
 
@@ -20,10 +20,10 @@ The look: one clean typeface used everywhere, big ALL-CAPS headlines, bright whi
 ## The facts that appear on the site (change these only if Anu says so)
 
 - **Name shown:** Anuragini Pandey, MD (Dr. Pandey)
-- **Practice:** Integra Medical
+- **Practice:** Éblouissant
 - **Address:** 31 Washington Square West, Suite 3F, New York, NY 10011
 - **Phone:** (212) 964-0971  *(the phone buttons call this number — it appears several times)*
-- **Email:** info@integramedicalnyc.com
+- **Email:** info@integramedicalnyc.com  *(still the old domain — the email hasn't been migrated to the new Éblouissant name yet, so keep this address as-is)*
 - **Booking:** Zocdoc — https://www.zocdoc.com/doctor/anuragini-pandey-md-567010
 - **Hours:** Mon–Fri 10:00am–6:00pm; Sat by appointment; Sun closed
 - **RF Microneedling pricing:** $600 per session; package of 3 for $1,500
@@ -52,9 +52,9 @@ The look: one clean typeface used everywhere, big ALL-CAPS headlines, bright whi
 
 ## How the site is published
 
-**The site publishes itself automatically.** It's hosted on GitHub Pages, which rebuilds the live site every time this repository changes — about one minute after a change is saved.
+**The site publishes itself automatically.** It's hosted on Vercel, which rebuilds the live site every time this repository changes — about one minute after a change is saved.
 
-So to publish one of Anu's edits, **you just need to save (commit) the change to this repository using the GitHub connector.** That's it — no deploy command, no copy-pasting, no separate website tool.
+So to publish one of Anu's edits, **you just need to save (commit) the change to this repository using the GitHub connector.** That's it — no deploy command, no copy-pasting, no separate website tool. Vercel watches the repository and does the rest.
 
 Your flow whenever Anu asks for a change:
 1. Make the edit in `index.html`.
@@ -65,5 +65,5 @@ Your flow whenever Anu asks for a change:
 If the GitHub connector isn't set up or you can't commit, **don't guess** — tell Anu to ask Mike to check the connection.
 
 **Live site:**
-- Temporary editing URL (use this while finalizing): https://steps-re.github.io/integra-medical-site/
+- The site is live at: https://integra.stepsventures.com
 - Her real address once the domain is connected: https://www.integramedicalnyc.com
